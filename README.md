@@ -52,3 +52,66 @@ I **love** to play Fortnite. I _also_ like making random playlists on Spotify. I
 ## idk
 ![Choccy Milk bc ur epik](https://pbs.twimg.com/media/EmKd-bUXgAAUrea.jpg)
 ![Hav U seen dis boi](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvWf2d1eFSOElGDshvfNrxbCFJfKp5b4tqMg&s)
+
+## My Mermaid charts or whatever
+
+### Perfect scheme
+``` mermaid
+    flowchart TD
+    A[find a bank] -->|make plan| B(Rob bank) 
+    B --> C(???)
+    C -->D[Profit]
+```
+
+### French Fries 
+``` mermaid
+mindmap
+  root((Fries))
+    Potatoes
+      Hash-Browns
+        McDonalds
+        Bo-Rounds
+            Bojangles
+            Spicy
+      disgusting
+        pickels
+      baked
+        bread
+            loaf
+                cat
+    French
+      Baguette
+        Bags
+            Plastic
+                Turtles mistake for jellyfish and die 
+      Macaroon
+        Almands
+            Allergy
+            Cyanide
+    Yummy
+      Chickfila
+        Sea salt
+        Ketchup
+            blood
+            smoothie
+        Chicken Sandwhich
+      Pizza
+        Teenage Mutant Ninja Turtles 
+      Mac n Cheese
+      Chicken Sandwhich
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
