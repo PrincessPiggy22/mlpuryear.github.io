@@ -6,6 +6,9 @@ Dark Accent: #AD8A91;
 Dark Shades: #BF7D83;
 */
 
+html{
+    background-color: #BF7D83;
+}
 .name{
     color:#F6F5F4;
     font-family: 'Times New Roman', Times, serif;
@@ -13,6 +16,7 @@ Dark Shades: #BF7D83;
 }
 
 img{
+    display: inline-block
     border-radius: 20%;
     width: 100px;
 }
