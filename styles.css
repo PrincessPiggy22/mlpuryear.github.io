@@ -16,3 +16,9 @@ img{
     border-radius: 20%;
     width: 100px;
 }
+
+.navbar{
+    list-style-type: none; /*removes bullet */
+    margin:0;
+    padding: 0;
+}
