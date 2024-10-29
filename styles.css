@@ -67,24 +67,13 @@ img{
     color: white;
 }
 
-/* Create three equal columns that float next to each other */
-.column{
-
-    float: left;
-    width: 33.33%;
-
-}
-
-/*Clear floats after the columns */
-.row:after{
-    content:"";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes the three colums stack on top of each other instead of next to each otger on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px){
-    .column{
-        width: 100%;
-    }
-}
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    background-color: #D192A2;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
