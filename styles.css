@@ -1,0 +1,18 @@
+/* Color Palette:
+Light Shades: #F6F5F4;
+Light Accent: #D198AB;
+Main Brand Color: #D192A2;
+Dark Accent: #AD8A91;
+Dark Shades: #BF7D83;
+*/
+
+.name{
+    color:#F6F5F4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+img{
+    border-radius: 20%
+    width: 100px
+}
