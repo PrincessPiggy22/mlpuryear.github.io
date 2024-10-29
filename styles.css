@@ -18,7 +18,7 @@ html{
 img{
     display: inline-block;
     border-radius: 40%;
-    width: 300px;
+    width: 150px;
 }
 
 .navbar {
@@ -37,10 +37,32 @@ img{
     padding: 8px;
     background-color: #D198AB;
     color: #F6F5F4;
+    font-size: large;
 }
 
 /* Change the link color on hover */
 #nav a:hover {
     background-color: #AD8A91;
     color: white;
+}
+
+/* Create three equal columns that float next to each other */
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+/*Clear floats after the columns */
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three colums stack on top of each other instead of next to each otger on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
 }
