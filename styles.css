@@ -24,11 +24,11 @@ img{
     overflow: hidden;
 }
   
-li {
+#nav {
     float: left;
 }
   
-li a {
+#nav a {
     display: block;
     padding: 8px;
     background-color: #D198AB;
@@ -36,7 +36,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+#nav a:hover {
     background-color: #AD8A91;
     color: white;
 }
