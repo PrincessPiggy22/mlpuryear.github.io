@@ -47,7 +47,6 @@ img{
 }
 
 /* Create three equal columns that float next to each other */
-
 .column{
     float: left;
     width: 33.33%;
