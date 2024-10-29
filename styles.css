@@ -15,7 +15,27 @@ html{
     font-size: x-large;
 }
 
-.profpic{
+p{
+    color:#F6F5F4;
+}
+
+li{
+    color:#F6F5F4;
+}
+
+h1{
+    color:#F6F5F4;
+}
+
+h2{
+    color:#F6F5F4;
+}
+
+h3{
+    color:#F6F5F4;
+}
+
+img{
     display: inline-block;
     border-radius: 40%;
     width: 50px;
@@ -49,8 +69,10 @@ html{
 
 /* Create three equal columns that float next to each other */
 .column{
+
     float: left;
     width: 33.33%;
+
 }
 
 /*Clear floats after the columns */
