@@ -17,8 +17,8 @@ html{
 
 img{
     display: inline-block;
-    border-radius: 20%;
-    width: 100px;
+    border-radius: 40%;
+    width: 300px;
 }
 
 .navbar {
