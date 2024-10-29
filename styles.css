@@ -17,8 +17,26 @@ img{
     width: 100px;
 }
 
-.navbar{
-    list-style-type: none; /*removes bullet */
-    margin:0;
+.navbar {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #D198AB;
+    color: #F6F5F4;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #AD8A91;
+    color: white;
 }
