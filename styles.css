@@ -15,23 +15,7 @@ body{
     font-size: x-large;
 }
 
-p{
-    color:#F6F5F4;
-}
-
-li{
-    color:#F6F5F4;
-}
-
-h1{
-    color:#F6F5F4;
-}
-
-h2{
-    color:#F6F5F4;
-}
-
-h3{
+p, li, h1, h2, h3, a{
     color:#F6F5F4;
 }
 
@@ -84,5 +68,5 @@ img{
     padding: 20px;
     background-color: #D198AB;
     color: #F6F5F4;
-    font-size: x-large;
+    font-size: large;
 }
