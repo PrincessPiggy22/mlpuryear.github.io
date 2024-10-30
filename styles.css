@@ -69,11 +69,19 @@ img{
 
 .flex-container {
     display: flex;
-  }
+}
   
   .flex-container > div {
     background-color: #D192A2;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
-  }
+}
+
+#footemail {
+    display: block;
+    padding: 8px;
+    background-color: #D198AB;
+    color: #F6F5F4;
+    font-size: x-large;
+}
