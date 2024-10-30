@@ -8,10 +8,11 @@ Dark Shades: #BF7D83;
 
 body{
     background-color: #BF7D83;
+    font-family: sans-serif;
 }
 .name{
     color:#F6F5F4;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-size: x-large;
 }
 
