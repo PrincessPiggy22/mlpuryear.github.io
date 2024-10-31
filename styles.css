@@ -20,7 +20,7 @@ p, li, h1, h2, h3, a{
     color:#F6F5F4;
 }
 
-img{
+#profpic{
     display: inline-block;
     border-radius: 40%;
     width: 50px;
