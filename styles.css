@@ -1,23 +1,23 @@
 /* Color Palette:
-Light Shades: #F6F5F4;
-Light Accent: #D198AB;
-Main Brand Color: #D192A2;
-Dark Accent: #AD8A91;
-Dark Shades: #BF7D83;
+Light Shades: #F5ECD4;
+Light Accent: #4E4676;
+Main Brand Color: #282842;
+Dark Accent: #2E2B4A;
+Dark Shades: #423B5B;
 */
 
 body{
-    background-color: #BF7D83;
+    background-color: #282842;
     font-family: sans-serif;
 }
 .name{
-    color:#F6F5F4;
+    color:#F5ECD4;
     font-family: sans-serif;
     font-size: x-large;
 }
 
 p, li, h1, h2, h3, a{
-    color:#F6F5F4;
+    color:#F5ECD4;
 }
 
 #profpic{
@@ -41,15 +41,15 @@ p, li, h1, h2, h3, a{
 #nav a {
     display: block;
     padding: 20px;
-    background-color: #D198AB;
-    color: #F6F5F4;
+    background-color: #2E2B4A;
+    color: #F5ECD4;
     font-size: x-large;
 }
 
 /* Change the link color on hover */
 #nav a:hover {
-    background-color: #AD8A91;
-    color: white;
+    background-color: #423B5B;
+    color: #F5ECD4;
 }
 
 .flex-container {
@@ -57,7 +57,7 @@ p, li, h1, h2, h3, a{
 }
 
 .flex-container > div {
-    background-color: #D192A2;
+    background-color: #4E4676;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
@@ -67,8 +67,8 @@ p, li, h1, h2, h3, a{
     display: block;
     margin: 10px;
     padding: 20px;
-    background-color: #D198AB;
-    color: #F6F5F4;
+    background-color: #2E2B4A;
+    color: #F5ECD4;
     font-size: large;
 }
 
