@@ -58,7 +58,7 @@ Dark Shades: #423B5B;
     .flex-container {
         display: flex;
         justify-content: center;
-
+        align-items: center;
     }
 
     .flex-container > div {
@@ -72,12 +72,13 @@ Dark Shades: #423B5B;
         .flex-container {
           flex-direction: column;
         }
-      }
+    }
 
     #secndcol{
         background-color: #2E2B4A;
         flex-grow: 1;
     }
+
 
     #footemail {
         display: block;
