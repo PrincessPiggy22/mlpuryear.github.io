@@ -29,17 +29,17 @@
                         <h1>Contact Me</h1>
                         <section class="Name">
                             <label for="name">Name:</label>
-                            <input type="text" id="name" name="name">
+                            <input type="text" id="name" name="name" required>
                         </section>
 
                         <section class="Mail">
                             <label for="email">Email:</label>
-                            <input type="text" id="email" name="email">
+                            <input type="text" id="email" name="email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><!--Had to look up-->
                         </section>
 
                         <section class="Phone">
                             <label for="phone">Phone:</label>
-                            <input type="text" id="phone" name="phone">
+                            <input type="text" id="phone" name="phone" pattern="[0-9]{10}">
                         </section>
 
                         <section class="Type">
@@ -55,7 +55,7 @@
                         <section class="Feedbck">
                             <label for="fb">Type here</label>
                             <br>
-                            <textarea id="fb" name="fb" rows="3" cols="28">Let me know ur thoughts! :3</textarea>
+                            <textarea id="fb" name="fb" rows="3" cols="28" minlength="10">Let me know ur thoughts! :3</textarea>
                         </section>
 
                         <input type="submit" value="send">
