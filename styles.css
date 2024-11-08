@@ -63,6 +63,10 @@ p, li, h1, h2, h3, a{
     font-size: 20px;
 }
 
+#secndcol{
+    background-color: #2E2B4A;
+}
+
 #footemail {
     display: block;
     margin: 10px;
@@ -72,3 +76,28 @@ p, li, h1, h2, h3, a{
     font-size: large;
 }
 
+form{
+    background-color: #2E2B4A;
+    color: #F5ECD4;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.linkedin:hover{
+    color:#c9bea2;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+input:focus{
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(51,51,51,0.5);
+    outline: none;
+}
