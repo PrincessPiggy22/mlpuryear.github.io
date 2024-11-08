@@ -68,6 +68,12 @@ Dark Shades: #423B5B;
         font-size: 20px;
     }
 
+    @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+
     #secndcol{
         background-color: #2E2B4A;
         flex-grow: 1;
