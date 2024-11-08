@@ -5,99 +5,106 @@ Main Brand Color: #282842;
 Dark Accent: #2E2B4A;
 Dark Shades: #423B5B;
 */
+@media screen and (max-width: 481px){
+    
+    
 
-body{
-    background-color: #282842;
-    font-family: sans-serif;
-}
-.name{
-    color:#F5ECD4;
-    font-family: sans-serif;
-    font-size: x-large;
-}
+    body{
+        background-color: #282842;
+        font-family: sans-serif;
+    }
+    .name{
+        color:#F5ECD4;
+        font-family: sans-serif;
+        font-size: x-large;
+    }
 
-p, li, h1, h2, h3, a{
-    color:#F5ECD4;
-}
+    p, li, h1, h2, h3, a{
+        color:#F5ECD4;
+    }
 
-#profpic{
-    display: inline-block;
-    border-radius: 40%;
-    width: 50px;
-    height: 50px;
-}
+    #profpic{
+        display: inline-block;
+        border-radius: 40%;
+        width: 50px;
+        height: 50px;
+    }
 
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-  
-#nav {
-    float: left;
-}
-  
-#nav a {
-    display: block;
-    padding: 20px;
-    background-color: #2E2B4A;
-    color: #F5ECD4;
-    font-size: x-large;
-}
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    #nav {
+        float: left;
+    }
+    
+    #nav a {
+        display: block;
+        padding: 20px;
+        background-color: #2E2B4A;
+        color: #F5ECD4;
+        font-size: x-large;
+    }
 
-/* Change the link color on hover */
-#nav a:hover {
-    background-color: #423B5B;
-    color: #F5ECD4;
-}
+    /* Change the link color on hover */
+    #nav a:hover {
+        background-color: #423B5B;
+        color: #F5ECD4;
+    }
 
-.flex-container {
-    display: flex;
-}
+    .flex-container {
+        display: flex;
+        justify-content: center;
 
-.flex-container > div {
-    background-color: #4E4676;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-}
+    }
 
-#secndcol{
-    background-color: #2E2B4A;
-}
+    .flex-container > div {
+        background-color: #4E4676;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+    }
 
-#footemail {
-    display: block;
-    margin: 10px;
-    padding: 20px;
-    background-color: #2E2B4A;
-    color: #F5ECD4;
-    font-size: large;
-}
+    #secndcol{
+        background-color: #2E2B4A;
+        flex-grow: 1;
+    }
 
-form{
-    background-color: #2E2B4A;
-    color: #F5ECD4;
-    padding: 10px 20px;
-    border:none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+    #footemail {
+        display: block;
+        margin: 10px;
+        padding: 20px;
+        background-color: #2E2B4A;
+        color: #F5ECD4;
+        font-size: large;
+    }
 
-.linkedin:hover{
-    color:#c9bea2;
-}
+    form{
+        background-color: #2E2B4A;
+        color: #F5ECD4;
+        padding: 10px 20px;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
-input{
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-}
+    .linkedin:hover{
+        color:#c9bea2;
+    }
 
-input:focus{
-    border-color: #333;
-    box-shadow: 0 0 5px rgba(51,51,51,0.5);
-    outline: none;
+    input{
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
+
+    input:focus{
+        border-color: #333;
+        box-shadow: 0 0 5px rgba(51,51,51,0.5);
+        outline: none;
+    }
 }
