@@ -5,7 +5,7 @@ Main Brand Color: #282842;
 Dark Accent: #2E2B4A;
 Dark Shades: #423B5B;
 */
-@media screen and (max-width: 481px){
+
     
     
 
@@ -107,4 +107,3 @@ Dark Shades: #423B5B;
         box-shadow: 0 0 5px rgba(51,51,51,0.5);
         outline: none;
     }
-}
