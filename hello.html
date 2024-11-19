@@ -1,8 +1,29 @@
 <html>
-    <py-script>
-        input_box = Element("operandOne")
-        operandOne = float(input_box.value)
-        result = Element("total")
-        result.write("Hello!  The input says:" + str(operandOne))
-    </py-script>
+    <head>
+        <link rel=stylesheet href=./styles.css>
+        <title>Hello</title>
+    </head>
+    <nav>
+        <ul class = "navbar">
+            <li id="nav"><a href="index.html">Home</a></li>
+            <li id="nav"><a href="intrests.html">Interests</a></li>
+            <li id="nav"><a href="news.html">News</a></li>
+            <li id="nav"><a href="contactinfo.html">Contact Info</a></li>
+            <li id="nav"><a href="hello.html">Hello</a></li>
+        </ul>
+    </nav>
+    <body>
+        <form>
+            <label for="operandOne">x:</label>
+                <input name="operandOne" id="operandOne" value = "10">
+            <label for="total">Result:</label><div name="total" id="total"></div>
+        </form>
+        <py-script>
+            input_box = Element("operandOne")
+            operandOne = float(input_box.value)
+            result = Element("total")
+            result.write("Hello!  The input says:" + str(operandOne))
+        </py-script>
+    </body>
+
 </html>
